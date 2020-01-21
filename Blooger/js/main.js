@@ -25,8 +25,8 @@ $(document).ready(function() {
   // owl-carousel for blog
   $(".owl-carousel").owlCarousel({
     loop: true,
-    autoplay: false,
-    autoplayTimeout: 3000,
+    autoplay: true,
+    autoplayTimeout: 2000,
     dots: false,
     nav: true,
     navText: [
@@ -45,6 +45,9 @@ $(document).ready(function() {
       1000
     );
   });
+
+  // AOS Instance
+  AOS.init();
 
   // delete collapse class if width more than 750px
   $(window).resize(function() {

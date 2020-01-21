@@ -10,7 +10,7 @@ body {
 :root {
   /*  Theme Colors */
   --text-gray: #3f4954;
-  --text-light: #686666da;
+  --text-light: rgba(104, 102, 102, 0.855);
   --bg-color: #0f0f0f;
   --white: #ffffff;
   --midnight: #104f55;
