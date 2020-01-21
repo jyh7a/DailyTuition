@@ -27,7 +27,7 @@ body {
 }
 
 html * {
-  outline: 1px solid seagreen;
+  /* outline: 1px solid seagreen; */
 }
 
 /* ---------------------- Global Classes ---------------------- */
@@ -44,6 +44,29 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+h1 {
+  font-family: var(--Lexend);
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: var(--Lexend);
+}
+
+h3 {
+  font-family: var(--Abel);
+  font-size: 1.3rem;
+}
+
+button.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: var(--Livvic);
+  cursor: pointer;
 }
 /* ----------x----------- Global Classes ----------x----------- */
 
@@ -80,8 +103,8 @@ ul {
   color: var(--text-gray);
 }
 
-.collapse{
-  height:35rem;
+.collapse {
+  height: 35rem;
 }
 
 .nav .nav-items {
@@ -124,8 +147,36 @@ ul {
 }
 /* -----------x---------- navbar -----------x---------- */
 
-/*       Viewport less then or equal to 795px       */
-@media only screen and (max-width: 795px) {
+/* ---------------------- Main Content ---------------------- */
+/* ---------------------- Site title ---------------------- */
+main .site-title {
+  background: url("../assets/Background-image.png");
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+
+main .site-title .site-background {
+  padding-top: 10rem;
+  text-align: center;
+  color: var(--white);
+}
+
+main .site-title h1,
+h3 {
+  margin: 0.3rem;
+}
+
+main .site-title .btn {
+  margin: 1.8rem;
+  background: var(--sky);
+}
+/* -----------x---------- Site title -----------x---------- */
+/* -----------x---------- Main Content -----------x---------- */
+
+/*       Viewport less then or equal to 750px       */
+@media only screen and (max-width: 750px) {
   .nav .nav-menu,
   .nav .nav-items {
     flex-direction: column;
@@ -135,4 +186,4 @@ ul {
     display: initial;
   }
 }
-/*   x   Viewport less then or equal to 795px   x   */
+/*   x   Viewport less then or equal to 750px   x   */
