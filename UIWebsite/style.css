@@ -188,6 +188,12 @@ body {
 
 /* media query */
 
+@media screen and (max-width: 1199px) {
+  .section-4 .col-md-7 img {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .section-1 .card {
     width: 100%;
@@ -230,7 +236,7 @@ body {
     font-size: 25px;
   }
 
-  footer input[type="button"]{
+  footer input[type="button"] {
     margin-top: 5%;
   }
 }
