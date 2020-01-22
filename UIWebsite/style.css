@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato";
+}
+
+.navbar-brand {
+  font-family: "pacifico";
+  font-size: 35px;
+  color: lightcoral !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
+  color: black !important ;
+  font-family: "Roboto Condensed";
+}
+
+.nav-link:hover {
+  color: #00e8e8 !important;
+}
+
+.active .nav-link {
+  color: #00e8e8 !important;
+}
+
+.menu-right-btn {
+  padding: 13px 46px;
+  margin-right: 4%;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover {
+  background-color: #00e8e8;
+  color: white;
+}
+
+.site-content {
+  background-image: url("./Stock/pexels-1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.site-title,
+.site-desc {
+  color: white;
+  font-family: "Righteous";
+}
+
+.site-title {
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+
+.site-desc {
+  font-size: 14px;
+  padding-left: 15%;
+}
+
+.site-btn1 {
+  margin-left: 20%;
+  background-color: black;
+  color: white;
+}
+
+.site-btn2 {
+  background-color: white;
+}
+
+.site-btn1,
+.site-btn2 {
+  margin-top: 5%;
+  margin-bottom: 40%;
+}
+
+/* Section-1 */
+
+.section-1 .heading-1 {
+  margin-top: 8%;
+}
+
+.section-1 .heading-2 {
+  margin-bottom: 5%;
+  font-size: 39px;
+}
+
+.section-1 .para-1 {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.section-1 .card-text,
+.para-1 {
+  color: rgba(0, 0, 0, 0.59);
+}
